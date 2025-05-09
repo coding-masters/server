@@ -1,10 +1,11 @@
 package com.example.codingmasters.global.handler;
 
 
-import com.example.demo.global.response.ApiResponse;
-import com.example.demo.global.response.Body;
-import com.example.demo.global.response.GeneralException;
-import com.example.demo.global.response.Status;
+
+import com.example.codingmasters.global.response.ApiResponse;
+import com.example.codingmasters.global.response.Body;
+import com.example.codingmasters.global.response.GeneralException;
+import com.example.codingmasters.global.response.Status;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.ConstraintViolationException;
 import java.util.ArrayList;
