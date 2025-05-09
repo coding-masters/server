@@ -30,3 +30,13 @@ web3:
 
 wallet:
   private-key: ${WALLET_PRIVATE_KEY}
+
+cloud:
+  aws:
+    credentials:
+      access-key: ${ACCESS_KEY}
+      secret-key: ${SECRET_KEY}
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket: ${BUCKET_NAME}
